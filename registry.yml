@@ -1,9 +1,21 @@
 mapping_registry_id: https://github.com/biopragmatics/mapping-registry
-registry_title: Biopragmatics
-registry_description: Semantic mappings produced as part of the Biopragmatics Stack
+mapping_registry_title: Biopragmatics
+mapping_registry_description: Semantic mappings produced as part of the Biopragmatics Stack
+
 mapping_set_references:
   - mapping_set_id: https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv
     local_name: biomappings.sssom.tsv
 
   - mapping_set_id: https://github.com/biopragmatics/bioregistry/raw/refs/heads/main/exports/sssom/bioregistry.sssom.tsv
     local_name: bioregistry.sssom.tsv
+
+  # https://doi.org/10.5281/zenodo.11082038
+  - mapping_set_id: https://zenodo.org/records/15504009/files/mappings.sssom.tsv.gz
+
+  # gene mappings from https://doi.org/10.5281/zenodo.11092012
+  - mapping_set_id: https://zenodo.org/records/15826794/files/priority.sssom.tsv.gz
+    mapping_set_group: gene
+  - mapping_set_id: https://zenodo.org/records/15826794/files/processed.sssom.tsv.gz
+    mapping_set_group: gene
+  - mapping_set_id: https://zenodo.org/records/15826794/files/raw.sssom.tsv.gz
+    mapping_set_group: gene
