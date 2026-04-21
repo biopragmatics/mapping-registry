@@ -9,13 +9,45 @@ mapping_set_references:
   - mapping_set_id: https://github.com/biopragmatics/bioregistry/raw/refs/heads/main/exports/sssom/bioregistry.sssom.tsv
     local_name: bioregistry.sssom.tsv
 
-  # https://doi.org/10.5281/zenodo.11082038
+  # large scale assembly of raw mappings https://zenodo.org/records/15504009
   - mapping_set_id: https://zenodo.org/records/15504009/files/mappings.sssom.tsv.gz
 
-  # gene mappings from https://doi.org/10.5281/zenodo.11092012
+  # gene mappings from https://zenodo.org/records/15826794
   - mapping_set_id: https://zenodo.org/records/15826794/files/priority.sssom.tsv.gz
     mapping_set_group: gene
   - mapping_set_id: https://zenodo.org/records/15826794/files/processed.sssom.tsv.gz
     mapping_set_group: gene
   - mapping_set_id: https://zenodo.org/records/15826794/files/raw.sssom.tsv.gz
     mapping_set_group: gene
+
+  # cell mappings from https://zenodo.org/records/15826779
+  - mapping_set_id: https://zenodo.org/records/15826779/files/priority.sssom.tsv.gz
+    mapping_set_group: cell
+  - mapping_set_id: https://zenodo.org/records/15826779/files/processed.sssom.tsv.gz
+    mapping_set_group: cell
+  - mapping_set_id: https://zenodo.org/records/15826779/files/raw.sssom.tsv.gz
+    mapping_set_group: cell
+
+  # protein mappings from https://zenodo.org/records/15826768
+  - mapping_set_id: https://zenodo.org/records/15826768/files/priority.sssom.tsv.gz
+    mapping_set_group: protein
+  - mapping_set_id: https://zenodo.org/records/15826768/files/processed.sssom.tsv.gz
+    mapping_set_group: protein
+  - mapping_set_id: https://zenodo.org/records/15826768/files/raw.sssom.tsv.gz
+    mapping_set_group: protein
+
+  # anatomy mappings from https://zenodo.org/records/15826754
+  - mapping_set_id: https://zenodo.org/records/15826754/files/priority.sssom.tsv.gz
+    mapping_set_group: anatomy
+  - mapping_set_id: https://zenodo.org/records/15826754/files/processed.sssom.tsv.gz
+    mapping_set_group: anatomy
+  - mapping_set_id: https://zenodo.org/records/15826754/files/raw.sssom.tsv.gz
+    mapping_set_group: anatomy
+
+  # disease mappings from https://zenodo.org/records/15826693
+  - mapping_set_id: https://zenodo.org/records/15826693/files/priority.sssom.tsv.gz
+    mapping_set_group: disease
+  - mapping_set_id: https://zenodo.org/records/15826693/files/processed.sssom.tsv.gz
+    mapping_set_group: disease
+  - mapping_set_id: https://zenodo.org/records/15826693/files/raw.sssom.tsv.gz
+    mapping_set_group: disease
