@@ -1,0 +1,9 @@
+mapping_registry_id: https://github.com/biopragmatics/mapping-registry
+registry_title: Biopragmatics
+registry_description: Semantic mappings produced as part of the Biopragmatics Stack
+mapping_set_references:
+  - mapping_set_id: https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv
+    local_name: biomappings.sssom.tsv
+
+  - mapping_set_id: https://github.com/biopragmatics/bioregistry/raw/refs/heads/main/exports/sssom/bioregistry.sssom.tsv
+    local_name: bioregistry.sssom.tsv
