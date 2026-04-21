@@ -2,11 +2,13 @@
 
 mapping_registry_id: https://github.com/biopragmatics/mapping-registry
 mapping_registry_title: Biopragmatics Mapping Registry
-mapping_registry_description: Semantic mappings produced as part of the Biopragmatics Stack
+mapping_registry_description:
+  Semantic mappings produced as part of the Biopragmatics Stack
+homepage: https://github.com/biopragmatics
+issue_tracker: https://github.com/biopragmatics/mapping-registry/issues
 
 # see https://mapping-commons.github.io/sssom/MappingSetReference/
 mapping_set_references:
-
   - mapping_set_id: https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv
     local_name: biomappings.sssom.tsv
 
