@@ -5,6 +5,7 @@ mapping_registry_title: Biopragmatics Mapping Registry
 mapping_registry_description:
   Semantic mappings produced as part of the Biopragmatics Stack
 homepage: https://github.com/biopragmatics
+documentation: https://github.com/biopragmatics/mapping-registry
 issue_tracker: https://github.com/biopragmatics/mapping-registry/issues
 
 # see https://mapping-commons.github.io/sssom/MappingSetReference/
@@ -21,39 +22,54 @@ mapping_set_references:
   # gene mappings from https://zenodo.org/records/15826794
   - mapping_set_id: https://zenodo.org/records/15826794/files/priority.sssom.tsv.gz
     mapping_set_group: gene
+    last_updated: 2026-09-15
   - mapping_set_id: https://zenodo.org/records/15826794/files/processed.sssom.tsv.gz
     mapping_set_group: gene
+    last_updated: 2026-09-15
   - mapping_set_id: https://zenodo.org/records/15826794/files/raw.sssom.tsv.gz
     mapping_set_group: gene
+    last_updated: 2026-09-15
 
-  # cell mappings from https://zenodo.org/records/15826779
-  - mapping_set_id: https://zenodo.org/records/15826779/files/priority.sssom.tsv.gz
+  # cell mappings from https://zenodo.org/records/22764952
+  - mapping_set_id: https://zenodo.org/records/22764952/files/priority.sssom.tsv.gz
     mapping_set_group: cell
-  - mapping_set_id: https://zenodo.org/records/15826779/files/processed.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/22764952/files/processed.sssom.tsv.gz
     mapping_set_group: cell
-  - mapping_set_id: https://zenodo.org/records/15826779/files/raw.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/22764952/files/raw.sssom.tsv.gz
     mapping_set_group: cell
+    last_updated: 2026-09-15
 
-  # protein mappings from https://zenodo.org/records/15826768
-  - mapping_set_id: https://zenodo.org/records/15826768/files/priority.sssom.tsv.gz
+  # protein mappings from https://zenodo.org/records/22764924
+  - mapping_set_id: https://zenodo.org/records/22764924/files/priority.sssom.tsv.gz
     mapping_set_group: protein
-  - mapping_set_id: https://zenodo.org/records/15826768/files/processed.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/22764924/files/processed.sssom.tsv.gz
     mapping_set_group: protein
-  - mapping_set_id: https://zenodo.org/records/15826768/files/raw.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/22764924/files/raw.sssom.tsv.gz
     mapping_set_group: protein
+    last_updated: 2026-09-15
 
-  # anatomy mappings from https://zenodo.org/records/15826754
-  - mapping_set_id: https://zenodo.org/records/15826754/files/priority.sssom.tsv.gz
+  # anatomy mappings from https://zenodo.org/records/20741899
+  - mapping_set_id: https://zenodo.org/records/20741899/files/priority.sssom.tsv.gz
     mapping_set_group: anatomy
-  - mapping_set_id: https://zenodo.org/records/15826754/files/processed.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/20741899/files/processed.sssom.tsv.gz
     mapping_set_group: anatomy
-  - mapping_set_id: https://zenodo.org/records/15826754/files/raw.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/20741899/files/raw.sssom.tsv.gz
     mapping_set_group: anatomy
+    last_updated: 2026-09-15
 
-  # disease mappings from https://zenodo.org/records/15826693
-  - mapping_set_id: https://zenodo.org/records/15826693/files/priority.sssom.tsv.gz
+  # disease mappings from https://zenodo.org/records/21935586
+  - mapping_set_id: https://zenodo.org/records/21935586/files/priority.sssom.tsv.gz
     mapping_set_group: disease
-  - mapping_set_id: https://zenodo.org/records/15826693/files/processed.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/21935586/files/processed.sssom.tsv.gz
     mapping_set_group: disease
-  - mapping_set_id: https://zenodo.org/records/15826693/files/raw.sssom.tsv.gz
+    last_updated: 2026-09-15
+  - mapping_set_id: https://zenodo.org/records/21935586/files/raw.sssom.tsv.gz
     mapping_set_group: disease
+    last_updated: 2026-09-15
