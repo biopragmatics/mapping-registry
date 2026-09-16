@@ -21,58 +21,74 @@ mapping_set_references:
   # large scale assembly of raw mappings https://zenodo.org/records/15504009
   - mapping_set_id: https://zenodo.org/records/15504009/files/mappings.sssom.tsv.gz
     mapping_set_group: raw
+    local_name: raw.sssom.tsv.gz
 
   # gene mappings from https://zenodo.org/records/15826794
   - mapping_set_id: https://zenodo.org/records/15826794/files/priority.sssom.tsv.gz
     mapping_set_group: gene
     last_updated: 2026-09-15
+    local_name: gene-priority.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/15826794/files/processed.sssom.tsv.gz
     mapping_set_group: gene
     last_updated: 2026-09-15
+    local_name: gene-processed.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/15826794/files/raw.sssom.tsv.gz
     mapping_set_group: gene
     last_updated: 2026-09-15
+    local_name: gene-raw.sssom.tsv.gz
 
   # cell mappings from https://zenodo.org/records/22764952
   - mapping_set_id: https://zenodo.org/records/22764952/files/priority.sssom.tsv.gz
     mapping_set_group: cell
     last_updated: 2026-09-15
+    local_name: cell-priority.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/22764952/files/processed.sssom.tsv.gz
     mapping_set_group: cell
     last_updated: 2026-09-15
+    local_name: cell-processed.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/22764952/files/raw.sssom.tsv.gz
     mapping_set_group: cell
     last_updated: 2026-09-15
+    local_name: cell-raw.sssom.tsv.gz
 
   # protein mappings from https://zenodo.org/records/22764924
   - mapping_set_id: https://zenodo.org/records/22764924/files/priority.sssom.tsv.gz
     mapping_set_group: protein
     last_updated: 2026-09-15
+    local_name: protein-priority.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/22764924/files/processed.sssom.tsv.gz
     mapping_set_group: protein
     last_updated: 2026-09-15
+    local_name: protein-processed.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/22764924/files/raw.sssom.tsv.gz
     mapping_set_group: protein
     last_updated: 2026-09-15
+    local_name: protein-raw.sssom.tsv.gz
 
   # anatomy mappings from https://zenodo.org/records/20741899
   - mapping_set_id: https://zenodo.org/records/20741899/files/priority.sssom.tsv.gz
     mapping_set_group: anatomy
     last_updated: 2026-09-15
+    local_name: anatomy-priority.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/20741899/files/processed.sssom.tsv.gz
     mapping_set_group: anatomy
     last_updated: 2026-09-15
+    local_name: anatomy-processed.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/20741899/files/raw.sssom.tsv.gz
     mapping_set_group: anatomy
     last_updated: 2026-09-15
+    local_name: anatomy-raw.sssom.tsv.gz
 
   # disease mappings from https://zenodo.org/records/21935586
   - mapping_set_id: https://zenodo.org/records/21935586/files/priority.sssom.tsv.gz
     mapping_set_group: disease
     last_updated: 2026-09-15
+    local_name: disease-priority.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/21935586/files/processed.sssom.tsv.gz
     mapping_set_group: disease
     last_updated: 2026-09-15
+    local_name: disease-processed.sssom.tsv.gz
   - mapping_set_id: https://zenodo.org/records/21935586/files/raw.sssom.tsv.gz
     mapping_set_group: disease
     last_updated: 2026-09-15
+    local_name: disease-raw.sssom.tsv.gz
