@@ -16,7 +16,11 @@ mapping_set_references:
 
   - mapping_set_id: https://github.com/biopragmatics/bioregistry/raw/refs/heads/main/exports/sssom/bioregistry.sssom.tsv
     local_name: bioregistry.sssom.tsv
-    mapping_set_group: manual
+    mapping_set_group: bioregistry
+
+  - mapping_set_id: https://raw.githubusercontent.com/biopragmatics/bioregistry/refs/heads/main/exports/analyses/mapping_checking/mapping_embedding_similarities.sssom.tsv
+    local_name: bioregistry-predictions.sssom.tsv
+    mapping_set_group: bioregistry
 
   # large scale assembly of raw mappings https://zenodo.org/records/15504009
   - mapping_set_id: https://zenodo.org/records/15504009/files/mappings.sssom.tsv.gz
